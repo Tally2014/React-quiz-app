@@ -4,7 +4,10 @@ function App() {
 
   return (
     <>
-      <h1>React Millionaire Quiz App Tutorial for Beginners</h1>
+      <div className='app'>
+        <div className='main'>main</div>
+        <div className='pyramid'>money</div>
+      </div>
     </>
   )
 }
