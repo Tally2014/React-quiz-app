@@ -6,7 +6,8 @@
 .main {
   width: 75%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #351F39),
-    url("./assets/GameShow-BG.jpg") center;
+    url("./assets/GameShow-BG.jpg") center no-repeat;
+    background-size: cover;
   display: flex;
   flex-direction: column;
 }
