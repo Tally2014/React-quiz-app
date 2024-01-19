@@ -25,6 +25,17 @@
   width: 100%;
 }
 
+.moneyListItem {
+  display: flex;
+  align-items: center;
+  padding: 3px 15px;
+  border-radius: 5px;
+}
+
+.moneyListItem.active {
+  background-color: #663a82;
+}
+
 .moneyListItemNumber{
   width: 30%;
   font-size: 18px;
@@ -34,5 +45,4 @@
 .moneyListItemAmount{
   font-size: 27px;
   font-weight: 500;
-  margin-left: 10px;
 }
