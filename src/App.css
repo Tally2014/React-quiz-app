@@ -18,3 +18,21 @@
   align-items: center;
   justify-content: center;
 }
+
+.moneyList{
+  padding: 20px;
+  list-style: none;
+  width: 100%;
+}
+
+.moneyListItemNumber{
+  width: 30%;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.moneyListItemAmount{
+  font-size: 27px;
+  font-weight: 500;
+  margin-left: 10px;
+}
